@@ -17,8 +17,7 @@ export default function Weather(props) {
       city: response.data.city,
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
-      iconUrl:
-        "https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg",
+      iconUrl: response.data.condition.icon_url,
     });
   }
 
