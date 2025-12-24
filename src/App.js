@@ -1,10 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import Weather from "./Weather";
+import "./Weather.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="containernp">
-        <h1>Weather App</h1>
+      <div className="container">
+        <Weather />
 
         <footer>
           This project was coded by Andreia Ribeiro ·{" "}
