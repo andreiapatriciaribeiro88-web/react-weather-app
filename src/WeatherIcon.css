@@ -1,0 +1,14 @@
+.WeatherIcon {
+  width: 65px;
+  height: 65px;
+}
+
+.WeatherIcon.small {
+  width: 40px;
+  height: 40px;
+}
+
+.WeatherIcon.large {
+  width: 90px;
+  height: 90px;
+}

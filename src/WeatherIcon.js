@@ -1,7 +1,8 @@
 import React from "react";
 import { WeatherSvg } from "weather-icons-animated";
+import "./WeatherIcon.css";
 
-export default function WeatherIcon({ code }) {
+export default function WeatherIcon({ code, size }) {
   let state = "cloudy";
 
   if (code.includes("clear-sky")) state = "sunny";
@@ -15,11 +16,8 @@ export default function WeatherIcon({ code }) {
   else if (code.includes("mist")) state = "fog";
 
   return (
-    <WeatherSvg
-      state={state}
-      night={code.includes("night")}
-      width={65}
-      height={65}
-    />
+    <div className={`WeatherIcon ${size || ""}`}>
+      <WeatherSvg state={state} night={code.includes("night")} />
+    </div>
   );
 }
