@@ -1,18 +1,27 @@
 body {
-  background: #90caf9;
+  background: #cbddec;
 }
 .Weather {
-  border: 1px solid #d0e4f7;
+  border: 5px solid #1e88e5;
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
-  border-radius: 4px;
-  color: #0d47a1;
+  border-radius: 10px;
+  color: #8fc3ee;
+  background: #0d47a1;
+}
+.Weather .form-control:focus {
+  background-color: #fff3e0;
+  border: 2px solid #ffb347;
+}
+.Weather .btn:hover {
+  color: #fb8c00;
 }
 .Weather h1 {
   font-size: 34px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
+  color: #fb8c00;
 }
 .Weather ul {
   margin: 0;
