@@ -18,7 +18,15 @@ export default function App() {
             {" "}
             Open Source
           </a>{" "}
-          ·
+          ·{" "}
+          <a
+            href="https://weathereactap.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
